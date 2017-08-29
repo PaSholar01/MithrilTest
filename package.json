@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "webpack src/index.js bin/app.js -d --watch",
+    "build": "webpack src/index.js bin/app.js -p",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +21,8 @@
   "homepage": "https://github.com/PaSholar01/MithrilTest#readme",
   "dependencies": {
     "mithril": "^1.1.3"
+  },
+  "devDependencies": {
+    "webpack": "^3.5.5"
   }
 }
