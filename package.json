@@ -1,0 +1,23 @@
+{
+  "name": "MithrilTest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PaSholar01/MithrilTest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PaSholar01/MithrilTest/issues"
+  },
+  "homepage": "https://github.com/PaSholar01/MithrilTest#readme",
+  "dependencies": {
+    "mithril": "^1.1.3"
+  }
+}
